@@ -1,0 +1,22 @@
+.tile {
+    display: grid;
+    width: 5.5vw;
+    height: 5.5vw;
+    place-content: center;
+}
+
+.tile .chess-piece {
+    background: no-repeat;
+    width: 5.3vw;
+    height: 5.3vw;
+    background-position: center;
+}
+
+.tile .chess-piece:hover {
+    cursor: grab;
+}
+
+.tile .chess-piece:active {
+    cursor: grabbing;
+}
+
